@@ -141,7 +141,11 @@ This progression allowed for comparison between simple and complex models to ide
 
 Model performance was evaluated using **Root Mean Squared Error (RMSE)** as the primary metric, as it measures the average magnitude of prediction errors and is well-suited for regression problems.
 
-Lower RMSE values indicate better model performance. The models were compared based on their RMSE scores on the test dataset, and the best-performing model was selected for final predictions and analysis.
+* Linear Regression RMSE - 0.019879
+* Random Forest RMSE - 0.018701
+* XGBoost RMSE - 0.018722
+
+Lower RMSE values indicate better model performance. The models were compared based on their RMSE scores on the test dataset, and Random Forest, being the best-performing model was selected for final predictions and analysis.
 
 ### **Model Deployment**
 
